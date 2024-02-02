@@ -9,8 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="First fragment"
-        app:layout_constraintVertical_bias="0.3"
+        android:text="Third Fragment"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,37 +17,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnSecondFragment"
-        android:layout_width="140dp"
+        android:id="@+id/btnFirstFragment"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Second frgment"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <Button
-        android:id="@+id/btnThirdFragment"
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:text="Third frgment"
+        android:text="FirstFragment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.7" />
-
-    <Button
-        android:id="@+id/bthFourthFragment"
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:text="Fourth frgment"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

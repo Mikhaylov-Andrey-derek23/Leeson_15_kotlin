@@ -20,34 +20,4 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
-
-    override fun onStart() {
-        super.onStart()
-        Log.e("ACTIVITY_LIFECYCLE", "onStart worked")
-    }
-
-    override fun onRestart() {
-        super.onRestart()
-        Log.e("ACTIVITY_LIFECYCLE", "onRestart worked")
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Log.e("ACTIVITY_LIFECYCLE", "onResume worked")
-    }
-
-    override fun onPause() {
-        super.onPause()
-        Log.e("ACTIVITY_LIFECYCLE", "onPause worked")
-    }
-
-    override fun onStop() {
-        super.onStop()
-        Log.e("ACTIVITY_LIFECYCLE", "onStop worked")
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-    }
 }
